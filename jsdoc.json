@@ -1,0 +1,46 @@
+{
+    "tags": {
+        "allowUnknownTags": ["category"]
+    },
+    "source": {
+        "include": ["./src"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [
+        "plugins/markdown",
+        "jsdoc-mermaid",
+        "node_modules/better-docs/category"
+    ],
+    "opts": {
+        "encoding": "utf8",
+        "destination": "docs/",
+        "readme": "readme.md",
+        "recurse": true,
+        "verbose": true,
+        "template": "node_modules/better-docs"
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "search": true,
+        "better-docs": {
+            "name": "Sample Documentation",
+            "logo": "images/logo.png",
+            "title": "Javascript service template", // HTML title
+            "css": "style.css",
+            "trackingCode": "tracking-code-which-will-go-to-the-HEAD",
+	    "hideGenerator": false,
+            "navLinks": [
+                {
+                    "label": "Github",
+                    "href": "https://github.com/pachecoio"
+                },
+                {
+                    "label": "Thiago Pacheco",
+                    "href": "https://thiagopacheco.dev"
+                }
+            ]
+        }
+    }
+}
