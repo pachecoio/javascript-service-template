@@ -1,2 +1,0 @@
-{"/home/pacheco/dev/backend/javascript-service-template/src/main.js": {"path":"/home/pacheco/dev/backend/javascript-service-template/src/main.js","statementMap":{"0":{"start":{"line":10,"column":4},"end":{"line":10,"column":24}}},"fnMap":{"0":{"name":"sayHello","decl":{"start":{"line":9,"column":16},"end":{"line":9,"column":24}},"loc":{"start":{"line":9,"column":27},"end":{"line":11,"column":1}},"line":9}},"branchMap":{},"s":{"0":1},"f":{"0":1},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"16ca33e560b08495d848ebfb5cbfd386fcf1719a"}
-}
